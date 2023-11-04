@@ -58,3 +58,7 @@ footer {
     max-width: 48%; /* Set the maximum width of each image */
     height: auto; /* Maintain the aspect ratio */
 }
+
+.centered-heading {
+    text-align: center; /* Center the text horizontally */
+}
