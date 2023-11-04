@@ -62,3 +62,8 @@ footer {
 .centered-heading {
     text-align: center; /* Center the text horizontally */
 }
+
+.section {
+    margin-bottom: 20px; /* Add space at the bottom of each section */
+    padding: 20px; /* Add padding inside each section */
+}
