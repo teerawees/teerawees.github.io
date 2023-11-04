@@ -67,3 +67,9 @@ footer {
     margin-bottom: 20px; /* Add space at the bottom of each section */
     padding: 20px; /* Add padding inside each section */
 }
+
+.fixed-size-image {
+    width: 3000px; /* Set a fixed width for the images */
+    height: 4000px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+}
