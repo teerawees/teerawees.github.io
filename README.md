@@ -1,3 +1,3 @@
 Ciao. This is a test project.
 
-Every single element was created by ChatGPT.
+Almost every element was created by ChatGPT.
