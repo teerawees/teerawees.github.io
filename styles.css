@@ -70,17 +70,16 @@ footer {
 
 .aspect-ratio-4-3 {
     position: relative;
+    width: 100%;
     padding-bottom: 75%; /* 4:3 aspect ratio */
     overflow: hidden;
 }
 
-.centered-cropped-image {
+.cropped-image {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
