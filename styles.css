@@ -18,7 +18,10 @@ h1 {
 }
 
 .navbar {
-    text-align: center; /* Centered Navigation Bar */
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    /* text-align: center; /* Centered Navigation Bar */
     background-color: #9B73A3; /* Pastel Purple Background */
     padding: 10px 0;
 }
