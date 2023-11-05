@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     background-color: #f3e6f8; /* Pastel Purple Background */
     margin: 0;
     padding: 0;
@@ -14,6 +14,7 @@ header {
 
 h1 {
     font-size: 36px;
+    font-weight: 700;
 }
 
 .navbar {
@@ -75,4 +76,30 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.language-switch {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make it round for a button-like appearance */
+    cursor: pointer;
+}
+
+/* Remove default button styles */
+.logo-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Style the image to match your logo's dimensions */
+.logo-button img {
+    width: 40px;
+    height: 40px;
 }
